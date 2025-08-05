@@ -59,7 +59,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 grid grid-cols-12 gap-8 py-4 items-center">
         {/* Site Branding */}
         <div className="col-span-8 md:col-span-4">
-          <a href="http://localhost:3000" className="relative text-gray-700 transition-colors pb-1 group text-base">
+          <a href="/" className="relative text-gray-700 transition-colors pb-1 group text-base">
             Evg14 
             <span className="animated-underline" aria-hidden="true" />
           </a>
