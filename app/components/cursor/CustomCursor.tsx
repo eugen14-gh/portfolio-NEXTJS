@@ -11,7 +11,7 @@ const CustomCursor: React.FC = () => {
   const [hovered, setHovered] = useState(false);
 
   const outlineRef = useRef<HTMLDivElement>(null);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number | null>(null);
   const target = useRef({ x: -100, y: -100 });
 
   useEffect(() => {
