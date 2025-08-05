@@ -3,7 +3,7 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Button from '../Button/Button';
+import Button from '../button/Button';
 import projects from "@/data/projects"; // <-- Use the same projects data
 
 const ProjectCard: React.FC<{
@@ -74,7 +74,7 @@ const Projects: React.FC = () => {
             key={project.id}
             image={project.image}
             leftHeader={project.title}
-            rightHeader={project.year || project.category || ""}
+            rightHeader={project.category || ""}
             link={project.link}
           />
         ))}
