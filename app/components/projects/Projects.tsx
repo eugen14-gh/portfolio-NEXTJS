@@ -31,7 +31,7 @@ const ProjectCard: React.FC<{
     </a>
     <div className="flex justify-between items-center py-3 bg-white bg-opacity-90">
       <h3 className="text-xs sm:text-sm uppercase text-gray-800">{leftHeader}</h3>
-      <span className="text-xs sm:text-sm text-gray-500">{rightHeader}</span>
+      <span className="text-xs sm:text-sm text-gray-500 md:pr-0 pr-15">{rightHeader}</span>
     </div>
   </div>
 );

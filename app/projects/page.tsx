@@ -64,7 +64,7 @@ export default function ProductList() {
                 >
                   <a
                     href={project.link}
-                    className="opacity-60 hover:opacity-100 transition-opacity duration-300 grid grid-cols-12 w-full items-center group"
+                    className="lg:opacity-60 hover:opacity-100 transition-opacity duration-300 grid grid-cols-12 w-full items-center group"
                   >
                     {/* Title */}
                     <p className="w-fit lg:col-span-2 col-span-6">{project.title}</p>
