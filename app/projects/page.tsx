@@ -66,7 +66,7 @@ export default function ProductList() {
                     href={project.link}
                     className="lg:opacity-60 hover:opacity-100 transition-opacity duration-300 grid grid-cols-12 w-full items-center group"
                   >
-                    {/* Title */}
+                    {/* Title */} 
                     <p className="w-fit lg:col-span-2 col-span-6">{project.title}</p>
                     {/* Category */}
                     <p className=" flex lg:col-start-4 lg:justify-start justify-end lg:col-span-2 col-span-6">{project.category}</p>
